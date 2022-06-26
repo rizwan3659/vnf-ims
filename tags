@@ -1,0 +1,363 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BUF_SIZE	/root/NFV_IMS/Kernel/packet.h	10;"	d
+CLOCK	/root/NFV_IMS/Kernel/utils.h	/^typedef std::chrono::high_resolution_clock CLOCK;$/;"	t
+Crypt	/root/NFV_IMS/Kernel/security.cpp	/^Crypt::Crypt() {$/;"	f	class:Crypt
+Crypt	/root/NFV_IMS/Kernel/security.h	/^class Crypt {$/;"	c
+DATA_SIZE	/root/NFV_IMS/Kernel/packet.h	12;"	d
+DEBUG	/root/NFV_IMS/Kernel/utils.h	85;"	d
+ENC_ON	/root/NFV_IMS/Kernel/security.h	20;"	d
+HMAC_LEN	/root/NFV_IMS/Kernel/security.h	/^const int HMAC_LEN = 20;$/;"	v
+HMAC_ON	/root/NFV_IMS/Kernel/security.h	19;"	d
+HSSADDR	/root/NFV_IMS/Kernel/common.h	24;"	d
+HSSPORTNO	/root/NFV_IMS/Kernel/common.h	14;"	d
+HandleIncomingSocket	/root/NFV_IMS/Kernel/utils.cpp	/^int Utils::HandleIncomingSocket( int epollfd, int ran_listen_fd, epoll_event &epevent, map<int, mdata> &fdmap, mdata &fddata)$/;"	f	class:Utils
+ICSCFADDR	/root/NFV_IMS/Kernel/common.h	22;"	d
+ICSCFPORTNO	/root/NFV_IMS/Kernel/common.h	12;"	d
+IP_HDR_LEN	/root/NFV_IMS/Kernel/packet.h	11;"	d
+Integrity	/root/NFV_IMS/Kernel/security.cpp	/^Integrity::Integrity() {$/;"	f	class:Integrity
+Integrity	/root/NFV_IMS/Kernel/security.h	/^class Integrity {$/;"	c
+MAXCONN	/root/NFV_IMS/Kernel/common.h	5;"	d
+MAXEVENTS	/root/NFV_IMS/Kernel/common.h	6;"	d
+MAX_THREADS	/root/NFV_IMS/Kernel/hss.cpp	28;"	d	file:
+MAX_THREADS	/root/NFV_IMS/Kernel/icscf.cpp	28;"	d	file:
+MAX_THREADS	/root/NFV_IMS/Kernel/pcscf.cpp	28;"	d	file:
+MAX_THREADS	/root/NFV_IMS/Kernel/scscf.cpp	28;"	d	file:
+MAX_UE_COUNT	/root/NFV_IMS/Kernel/utils.h	/^const int MAX_UE_COUNT = 10000;$/;"	v
+MICROSECONDS	/root/NFV_IMS/Kernel/utils.h	/^typedef std::chrono::microseconds MICROSECONDS;$/;"	t
+NETWORK_H	/root/NFV_IMS/Kernel/network.h	2;"	d
+NUM_MONITORS	/root/NFV_IMS/Kernel/ran_simulator.h	13;"	d
+Network	/root/NFV_IMS/Kernel/network.h	/^class Network {$/;"	c
+PACKET_H	/root/NFV_IMS/Kernel/packet.h	2;"	d
+PCSCFADDR	/root/NFV_IMS/Kernel/common.h	21;"	d
+PCSCFPORTNO	/root/NFV_IMS/Kernel/common.h	11;"	d
+Packet	/root/NFV_IMS/Kernel/packet.cpp	/^Packet::Packet() {$/;"	f	class:Packet
+Packet	/root/NFV_IMS/Kernel/packet.cpp	/^Packet::Packet(Packet &&src_obj)$/;"	f	class:Packet
+Packet	/root/NFV_IMS/Kernel/packet.cpp	/^Packet::Packet(const Packet &SRC_OBJ) {$/;"	f	class:Packet
+Packet	/root/NFV_IMS/Kernel/packet.h	/^class Packet {$/;"	c
+RAN_H	/root/NFV_IMS/Kernel/ran.h	2;"	d
+RAN_P	/root/NFV_IMS/Kernel/makefile	/^RAN_P = security.o network.o packet.o ran.o ran_simulator.o sctp_client.o sync.o telecom.o utils.o sip.o uecontext.o $/;"	m
+RAN_R	/root/NFV_IMS/Kernel/makefile	/^RAN_R = $(G++) -o ransim.out $(RAN_P) -pthread -lcrypto$/;"	m
+RAN_SIMULATOR_H	/root/NFV_IMS/Kernel/ran_simulator.h	2;"	d
+Ran	/root/NFV_IMS/Kernel/ran.h	/^class Ran {$/;"	c
+RanContext	/root/NFV_IMS/Kernel/ran.cpp	/^RanContext::RanContext() \/\/ Initialize RAN context$/;"	f	class:RanContext
+RanContext	/root/NFV_IMS/Kernel/ran.h	/^class RanContext {$/;"	c
+SCSCFADDR	/root/NFV_IMS/Kernel/common.h	23;"	d
+SCSCFPORTNO	/root/NFV_IMS/Kernel/common.h	13;"	d
+SCTP_CLIENT_H	/root/NFV_IMS/Kernel/sctp_client.h	2;"	d
+SECURITY_H	/root/NFV_IMS/Kernel/security.h	2;"	d
+SIP_H	/root/NFV_IMS/Kernel/sip.h	2;"	d
+SIP_HDR_LEN	/root/NFV_IMS/Kernel/sip.h	/^const int SIP_HDR_LEN = sizeof(Sip);$/;"	v
+SYNC_H	/root/NFV_IMS/Kernel/sync.h	2;"	d
+SctpClient	/root/NFV_IMS/Kernel/sctp_client.cpp	/^SctpClient::SctpClient() {$/;"	f	class:SctpClient
+SctpClient	/root/NFV_IMS/Kernel/sctp_client.h	/^class SctpClient {$/;"	c
+Sip	/root/NFV_IMS/Kernel/sip.cpp	/^Sip::Sip() {$/;"	f	class:Sip
+Sip	/root/NFV_IMS/Kernel/sip.h	/^class Sip {$/;"	c
+Sync	/root/NFV_IMS/Kernel/sync.h	/^class Sync {$/;"	c
+TELECOM_H	/root/NFV_IMS/Kernel/telecom.h	2;"	d
+TRACE	/root/NFV_IMS/Kernel/utils.h	86;"	d
+Telecom	/root/NFV_IMS/Kernel/telecom.h	/^class Telecom {$/;"	c
+UEADDR	/root/NFV_IMS/Kernel/common.h	20;"	d
+UEcontext	/root/NFV_IMS/Kernel/uecontext.h	/^class UEcontext \/\/Stores context of UE$/;"	c
+UTILS_H	/root/NFV_IMS/Kernel/utils.h	2;"	d
+Utils	/root/NFV_IMS/Kernel/utils.h	/^class Utils {$/;"	c
+act	/root/NFV_IMS/Kernel/utils.h	/^	int act;$/;"	m	struct:mdata
+add_hmac	/root/NFV_IMS/Kernel/security.cpp	/^void Integrity::add_hmac(Packet &pkt, uint64_t k_nas_int) {$/;"	f	class:Integrity
+add_itf	/root/NFV_IMS/Kernel/network.cpp	/^void Network::add_itf(int itf_no, string ip_addr_sp) {$/;"	f	class:Network
+allocate_ip_hdr_mem	/root/NFV_IMS/Kernel/packet.cpp	/^struct ip* Packet::allocate_ip_hdr_mem(int len) {$/;"	f	class:Packet
+allocate_str_mem	/root/NFV_IMS/Kernel/utils.cpp	/^char* Utils::allocate_str_mem(int len) {$/;"	f	class:Utils
+allocate_uint8_mem	/root/NFV_IMS/Kernel/utils.cpp	/^uint8_t* Utils::allocate_uint8_mem(int len) {$/;"	f	class:Utils
+append_item	/root/NFV_IMS/Kernel/packet.cpp	/^void Packet::append_item(bool item) {$/;"	f	class:Packet
+append_item	/root/NFV_IMS/Kernel/packet.cpp	/^void Packet::append_item(const char *ITEM) {$/;"	f	class:Packet
+append_item	/root/NFV_IMS/Kernel/packet.cpp	/^void Packet::append_item(int item) {$/;"	f	class:Packet
+append_item	/root/NFV_IMS/Kernel/packet.cpp	/^void Packet::append_item(string item) {$/;"	f	class:Packet
+append_item	/root/NFV_IMS/Kernel/packet.cpp	/^void Packet::append_item(uint16_t item) {$/;"	f	class:Packet
+append_item	/root/NFV_IMS/Kernel/packet.cpp	/^void Packet::append_item(uint32_t item) {$/;"	f	class:Packet
+append_item	/root/NFV_IMS/Kernel/packet.cpp	/^void Packet::append_item(uint64_t item) {$/;"	f	class:Packet
+append_item	/root/NFV_IMS/Kernel/packet.cpp	/^void Packet::append_item(uint8_t *item, int item_len) {$/;"	f	class:Packet
+append_item	/root/NFV_IMS/Kernel/packet.cpp	/^void Packet::append_item(uint8_t item) {$/;"	f	class:Packet
+append_item	/root/NFV_IMS/Kernel/packet.cpp	/^void Packet::append_item(vector<uint64_t> item) {$/;"	f	class:Packet
+arg	/root/NFV_IMS/Kernel/hss.cpp	/^struct arg{$/;"	s	file:
+arg	/root/NFV_IMS/Kernel/icscf.cpp	/^struct arg{$/;"	s	file:
+arg	/root/NFV_IMS/Kernel/pcscf.cpp	/^struct arg{$/;"	s	file:
+arg	/root/NFV_IMS/Kernel/scscf.cpp	/^struct arg{$/;"	s	file:
+arguments	/root/NFV_IMS/Kernel/hss.cpp	/^struct arg arguments[MAX_THREADS]; \/\/ Arguments sent to Pthreads$/;"	v	typeref:struct:arg
+arguments	/root/NFV_IMS/Kernel/icscf.cpp	/^struct arg arguments[MAX_THREADS]; \/\/ Arguments sent to Pthreads$/;"	v	typeref:struct:arg
+arguments	/root/NFV_IMS/Kernel/pcscf.cpp	/^struct arg arguments[MAX_THREADS]; \/\/ Arguments sent to Pthreads$/;"	v	typeref:struct:arg
+arguments	/root/NFV_IMS/Kernel/scscf.cpp	/^struct arg arguments[MAX_THREADS]; $/;"	v	typeref:struct:arg
+authenticate	/root/NFV_IMS/Kernel/ran.cpp	/^bool Ran::authenticate()$/;"	f	class:Ran
+authenticate	/root/NFV_IMS/Kernel/ran_simulator.cpp	/^void authenticate(int ran_num)$/;"	f
+autn_num	/root/NFV_IMS/Kernel/ran.h	/^	uint64_t autn_num;$/;"	m	class:RanContext
+autn_num	/root/NFV_IMS/Kernel/uecontext.h	/^	uint64_t autn_num;$/;"	m	class:UEcontext
+bind_sock	/root/NFV_IMS/Kernel/network.cpp	/^void Network::bind_sock(int sock_fd, struct sockaddr_in sock_addr) {$/;"	f	class:Network
+buf	/root/NFV_IMS/Kernel/utils.h	/^	uint8_t buf[mdata_BUF_SIZE];$/;"	m	struct:mdata
+buflen	/root/NFV_IMS/Kernel/utils.h	/^	int buflen;$/;"	m	struct:mdata
+check_usage	/root/NFV_IMS/Kernel/ran_simulator.cpp	/^void check_usage(int argc) {$/;"	f
+ck	/root/NFV_IMS/Kernel/ran.h	/^	uint64_t ck;$/;"	m	class:RanContext
+ck	/root/NFV_IMS/Kernel/uecontext.h	/^	uint64_t ck;$/;"	m	class:UEcontext
+clear_pkt	/root/NFV_IMS/Kernel/packet.cpp	/^void Packet::clear_pkt() {$/;"	f	class:Packet
+cmp_hmacs	/root/NFV_IMS/Kernel/security.cpp	/^bool Integrity::cmp_hmacs(uint8_t *hmac1, uint8_t *hmac2) {$/;"	f	class:Integrity
+cndsignal	/root/NFV_IMS/Kernel/sync.cpp	/^void Sync::cndsignal(pthread_cond_t &cndvar) {$/;"	f	class:Sync
+cndvar_init	/root/NFV_IMS/Kernel/sync.cpp	/^void Sync::cndvar_init(pthread_cond_t &cndvar) {$/;"	f	class:Sync
+cndwait	/root/NFV_IMS/Kernel/sync.cpp	/^void Sync::cndwait(pthread_cond_t &cndvar, pthread_mutex_t &mux) {$/;"	f	class:Sync
+conn	/root/NFV_IMS/Kernel/sctp_client.cpp	/^void SctpClient::conn(string arg_server_ip_addr, int arg_server_port) {$/;"	f	class:SctpClient
+conn_fd	/root/NFV_IMS/Kernel/sctp_client.h	/^	int conn_fd;$/;"	m	class:SctpClient
+conn_pcscf	/root/NFV_IMS/Kernel/ran.cpp	/^int Ran::conn_pcscf() {$/;"	f	class:Ran
+connect_with_server	/root/NFV_IMS/Kernel/sctp_client.cpp	/^void SctpClient::connect_with_server() {$/;"	f	class:SctpClient
+coreno	/root/NFV_IMS/Kernel/hss.cpp	/^	int coreno;$/;"	m	struct:arg	file:
+coreno	/root/NFV_IMS/Kernel/icscf.cpp	/^	int coreno;$/;"	m	struct:arg	file:
+coreno	/root/NFV_IMS/Kernel/pcscf.cpp	/^	int coreno;$/;"	m	struct:arg	file:
+coreno	/root/NFV_IMS/Kernel/scscf.cpp	/^	int coreno;$/;"	m	struct:arg	file:
+count	/root/NFV_IMS/Kernel/ran.h	/^	uint64_t count;$/;"	m	class:RanContext
+count	/root/NFV_IMS/Kernel/uecontext.h	/^	uint64_t count;$/;"	m	class:UEcontext
+data	/root/NFV_IMS/Kernel/packet.h	/^	uint8_t *data;$/;"	m	class:Packet
+data_ptr	/root/NFV_IMS/Kernel/packet.h	/^	int data_ptr;$/;"	m	class:Packet
+dec	/root/NFV_IMS/Kernel/security.cpp	/^void Crypt::dec(Packet &pkt, uint64_t k_nas_enc) {$/;"	f	class:Crypt
+dec_data	/root/NFV_IMS/Kernel/security.cpp	/^int Crypt::dec_data(uint8_t *cipher_text, int cipher_text_len, uint8_t *plain_text, uint64_t k_nas_enc) {$/;"	f	class:Crypt
+decrypt_remove_hmac	/root/NFV_IMS/Kernel/security.cpp	/^void decrypt_remove_hmac(Packet &pkt)$/;"	f
+deregsiter	/root/NFV_IMS/Kernel/ran.cpp	/^bool Ran::deregsiter()$/;"	f	class:Ran
+deregsiter	/root/NFV_IMS/Kernel/ran_simulator.cpp	/^void deregsiter(int ran_num)$/;"	f
+dir	/root/NFV_IMS/Kernel/ran.h	/^	uint64_t dir;$/;"	m	class:RanContext
+emm_state	/root/NFV_IMS/Kernel/ran.h	/^	int emm_state; \/* EPS Mobililty Management state *\/$/;"	m	class:RanContext
+emm_state	/root/NFV_IMS/Kernel/uecontext.h	/^	int emm_state; \/* EPS Mobililty Management state *\/$/;"	m	class:UEcontext
+enc	/root/NFV_IMS/Kernel/security.cpp	/^void Crypt::enc(Packet &pkt, uint64_t k_nas_enc) {$/;"	f	class:Crypt
+enc_data	/root/NFV_IMS/Kernel/security.cpp	/^int Crypt::enc_data(uint8_t *plain_text, int plain_text_len, uint8_t *cipher_text, uint64_t k_nas_enc) {$/;"	f	class:Crypt
+encrypt_add_hmac	/root/NFV_IMS/Kernel/security.cpp	/^void encrypt_add_hmac(Packet &pkt)$/;"	f
+expiration_time	/root/NFV_IMS/Kernel/ran.h	/^	uint64_t expiration_time;$/;"	m	class:RanContext
+expiration_time	/root/NFV_IMS/Kernel/uecontext.h	/^	uint64_t expiration_time;$/;"	m	class:UEcontext
+expiration_value	/root/NFV_IMS/Kernel/ran.h	/^	uint64_t expiration_value ; \/\/ 0 in case of deregistration, otherwise non zero$/;"	m	class:RanContext
+expiration_value	/root/NFV_IMS/Kernel/uecontext.h	/^	uint64_t expiration_value ; \/\/ 0 in case of deregistration, otherwise non zero$/;"	m	class:UEcontext
+extract_item	/root/NFV_IMS/Kernel/packet.cpp	/^void Packet::extract_item(bool &item) {$/;"	f	class:Packet
+extract_item	/root/NFV_IMS/Kernel/packet.cpp	/^void Packet::extract_item(char *item, int item_len) {$/;"	f	class:Packet
+extract_item	/root/NFV_IMS/Kernel/packet.cpp	/^void Packet::extract_item(int &item) {$/;"	f	class:Packet
+extract_item	/root/NFV_IMS/Kernel/packet.cpp	/^void Packet::extract_item(string &item) {$/;"	f	class:Packet
+extract_item	/root/NFV_IMS/Kernel/packet.cpp	/^void Packet::extract_item(uint16_t &item) {$/;"	f	class:Packet
+extract_item	/root/NFV_IMS/Kernel/packet.cpp	/^void Packet::extract_item(uint32_t &item) {$/;"	f	class:Packet
+extract_item	/root/NFV_IMS/Kernel/packet.cpp	/^void Packet::extract_item(uint64_t &item) {$/;"	f	class:Packet
+extract_item	/root/NFV_IMS/Kernel/packet.cpp	/^void Packet::extract_item(uint8_t &item) {$/;"	f	class:Packet
+extract_item	/root/NFV_IMS/Kernel/packet.cpp	/^void Packet::extract_item(uint8_t *item, int item_len) {$/;"	f	class:Packet
+extract_item	/root/NFV_IMS/Kernel/packet.cpp	/^void Packet::extract_item(vector<uint64_t> &item, int item_size) {$/;"	f	class:Packet
+extract_sip_hdr	/root/NFV_IMS/Kernel/packet.cpp	/^void Packet::extract_sip_hdr() {$/;"	f	class:Packet
+g_crypt	/root/NFV_IMS/Kernel/security.cpp	/^Crypt g_crypt;$/;"	v
+g_freeport	/root/NFV_IMS/Kernel/network.cpp	/^int g_freeport = 0;$/;"	v
+g_integrity	/root/NFV_IMS/Kernel/security.cpp	/^Integrity g_integrity;$/;"	v
+g_mux	/root/NFV_IMS/Kernel/ran_simulator.cpp	/^pthread_mutex_t g_mux;$/;"	v
+g_nw	/root/NFV_IMS/Kernel/network.cpp	/^Network g_nw;$/;"	v
+g_req_dur	/root/NFV_IMS/Kernel/ran_simulator.cpp	/^uint64_t g_req_dur;$/;"	v
+g_reuse	/root/NFV_IMS/Kernel/network.cpp	/^int g_reuse = 1;$/;"	v
+g_run_dur	/root/NFV_IMS/Kernel/ran_simulator.cpp	/^uint64_t g_run_dur;$/;"	v
+g_sock_addr_len	/root/NFV_IMS/Kernel/network.cpp	/^socklen_t g_sock_addr_len = sizeof(sockaddr_in);$/;"	v
+g_start_time	/root/NFV_IMS/Kernel/ran_simulator.cpp	/^time_t g_start_time;$/;"	v
+g_sync	/root/NFV_IMS/Kernel/sync.cpp	/^Sync g_sync;$/;"	v
+g_telecom	/root/NFV_IMS/Kernel/telecom.cpp	/^Telecom g_telecom;$/;"	v
+g_threads	/root/NFV_IMS/Kernel/ran_simulator.cpp	/^vector<thread> g_threads;$/;"	v
+g_threads_count	/root/NFV_IMS/Kernel/ran_simulator.cpp	/^int g_threads_count;$/;"	v
+g_timeout_lev1	/root/NFV_IMS/Kernel/network.cpp	/^struct timeval g_timeout_lev1 = {5, 0};$/;"	v	typeref:struct:timeval
+g_timeout_lev2	/root/NFV_IMS/Kernel/network.cpp	/^struct timeval g_timeout_lev2 = {30, 0};$/;"	v	typeref:struct:timeval
+g_timeout_lev3	/root/NFV_IMS/Kernel/network.cpp	/^struct timeval g_timeout_lev3 = {60, 0};$/;"	v	typeref:struct:timeval
+g_tot_regs	/root/NFV_IMS/Kernel/ran_simulator.cpp	/^int g_tot_regs;$/;"	v
+g_tot_regstime	/root/NFV_IMS/Kernel/ran_simulator.cpp	/^uint64_t g_tot_regstime;$/;"	v
+g_umon_thread	/root/NFV_IMS/Kernel/ran_simulator.cpp	/^vector<thread> g_umon_thread;$/;"	v
+g_utils	/root/NFV_IMS/Kernel/utils.cpp	/^Utils g_utils;$/;"	v
+get_autn_info	/root/NFV_IMS/Kernel/hss.cpp	/^void get_autn_info(uint64_t imsi, uint64_t &key, uint64_t &rand_num) {$/;"	f
+get_dst_ip_addr	/root/NFV_IMS/Kernel/network.cpp	/^string Network::get_dst_ip_addr(Packet pkt) {$/;"	f	class:Network
+get_gruu	/root/NFV_IMS/Kernel/telecom.cpp	/^uint64_t Telecom::get_gruu(uint64_t imsi, uint64_t instanceid) {$/;"	f	class:Telecom
+get_gummei	/root/NFV_IMS/Kernel/telecom.cpp	/^uint64_t Telecom::get_gummei(uint16_t plmn_id, uint32_t mmei) {$/;"	f	class:Telecom
+get_guti	/root/NFV_IMS/Kernel/telecom.cpp	/^uint64_t Telecom::get_guti(uint64_t gummei, uint64_t m_tmsi) {$/;"	f	class:Telecom
+get_hmac	/root/NFV_IMS/Kernel/security.cpp	/^void Integrity::get_hmac(uint8_t *data, int data_len, uint8_t *hmac, uint64_t k_nas_int) {$/;"	f	class:Integrity
+get_imsi	/root/NFV_IMS/Kernel/telecom.cpp	/^uint64_t Telecom::get_imsi(uint16_t plmn_id, uint64_t msisdn) {$/;"	f	class:Telecom
+get_mmei	/root/NFV_IMS/Kernel/telecom.cpp	/^uint32_t Telecom::get_mmei(uint16_t mmegi, uint8_t mmec) {$/;"	f	class:Telecom
+get_plmn_id	/root/NFV_IMS/Kernel/telecom.cpp	/^uint16_t Telecom::get_plmn_id(uint16_t mcc, uint16_t mnc) {$/;"	f	class:Telecom
+get_scscf	/root/NFV_IMS/Kernel/hss.cpp	/^int get_scscf(uint64_t imsi,string &scscfaddress,uint64_t &scscfport) $/;"	f
+get_sock_addr	/root/NFV_IMS/Kernel/network.cpp	/^void Network::get_sock_addr(int sock_fd, struct sockaddr_in &sock_addr) {$/;"	f	class:Network
+get_src_ip_addr	/root/NFV_IMS/Kernel/network.cpp	/^string Network::get_src_ip_addr(Packet pkt) {$/;"	f	class:Network
+gruu	/root/NFV_IMS/Kernel/ran.h	/^	uint64_t gruu; \/* GRUU$/;"	m	class:RanContext
+gruu	/root/NFV_IMS/Kernel/uecontext.h	/^	uint64_t gruu; \/* GRUU *\/$/;"	m	class:UEcontext
+handleEpollOut	/root/NFV_IMS/Kernel/utils.cpp	/^int Utils::handleEpollOut(int epollfd,int cur_fd, map<int, mdata> &fdmap, mdata &fddata, epoll_event &epevent,int case1)$/;"	f	class:Utils
+handleRegistrationRequest	/root/NFV_IMS/Kernel/hss.cpp	/^int handleRegistrationRequest(int epollfd,int cur_fd, map<int, mdata> &fdmap, mdata &fddata,  char * ServerAddress, int port, epoll_event &new_file_descriptor_to_watch)$/;"	f
+handleRegistrationRequest	/root/NFV_IMS/Kernel/icscf.cpp	/^int handleRegistrationRequest(int epollfd,int cur_fd, map<int, mdata> &fdmap, mdata &fddata,  char * ServerAddress, int port, epoll_event &new_file_descriptor_to_watch)$/;"	f
+handleRegistrationRequest	/root/NFV_IMS/Kernel/pcscf.cpp	/^int handleRegistrationRequest(int epollfd,int cur_fd, map<int, mdata> &fdmap, mdata &fddata,  char * ServerAddress, int port, epoll_event &new_file_descriptor_to_watch)$/;"	f
+handleRegistrationRequest	/root/NFV_IMS/Kernel/scscf.cpp	/^int handleRegistrationRequest(int epollfd,int cur_fd, map<int, mdata> &fdmap, mdata &fddata,  char * ServerAddress, int port, epoll_event &new_file_descriptor_to_watch)$/;"	f
+handle_autninfo_req	/root/NFV_IMS/Kernel/hss.cpp	/^void handle_autninfo_req(Packet &pkt, uint64_t imsi) {$/;"	f
+handle_crypt_error	/root/NFV_IMS/Kernel/security.cpp	/^void Crypt::handle_crypt_error() {$/;"	f	class:Crypt
+handle_epoll_error	/root/NFV_IMS/Kernel/hss.cpp	/^void handle_epoll_error(string msg)$/;"	f
+handle_epoll_error	/root/NFV_IMS/Kernel/icscf.cpp	/^void handle_epoll_error(string msg)$/;"	f
+handle_epoll_error	/root/NFV_IMS/Kernel/pcscf.cpp	/^void handle_epoll_error(string msg)$/;"	f
+handle_epoll_error	/root/NFV_IMS/Kernel/scscf.cpp	/^void handle_epoll_error(string msg)$/;"	f
+handle_error	/root/NFV_IMS/Kernel/hss.cpp	/^void handle_error(string msg)$/;"	f
+handle_error	/root/NFV_IMS/Kernel/icscf.cpp	/^void handle_error(string msg)$/;"	f
+handle_error	/root/NFV_IMS/Kernel/pcscf.cpp	/^void handle_error(string msg)$/;"	f
+handle_error	/root/NFV_IMS/Kernel/scscf.cpp	/^void handle_error(string msg)$/;"	f
+handle_type1_error	/root/NFV_IMS/Kernel/utils.cpp	/^void Utils::handle_type1_error(int arg, string msg) {$/;"	f	class:Utils
+handle_type2_error	/root/NFV_IMS/Kernel/utils.cpp	/^void Utils::handle_type2_error(int arg, string msg) {$/;"	f	class:Utils
+handlecase3	/root/NFV_IMS/Kernel/icscf.cpp	/^int handlecase3(int epollfd,int cur_fd, map<int, mdata> &fdmap, mdata &fddata,  char * ServerAddress, int port, epoll_event &new_file_descriptor_to_watch)$/;"	f
+handlecase3	/root/NFV_IMS/Kernel/pcscf.cpp	/^int handlecase3(int epollfd,int cur_fd, map<int, mdata> &fdmap, mdata &fddata,  char * ServerAddress, int port, epoll_event &new_file_descriptor_to_watch)$/;"	f
+handlecase3	/root/NFV_IMS/Kernel/scscf.cpp	/^int handlecase3(int epollfd,int cur_fd, map<int, mdata> &fdmap, mdata &fddata,  char * ServerAddress, int port, epoll_event &new_file_descriptor_to_watch)$/;"	f
+handlecase5	/root/NFV_IMS/Kernel/icscf.cpp	/^int handlecase5(int epollfd,int cur_fd, map<int, mdata> &fdmap, mdata &fddata,  char * ServerAddress, int port, epoll_event &new_file_descriptor_to_watch)$/;"	f
+hmac_check	/root/NFV_IMS/Kernel/security.cpp	/^bool Integrity::hmac_check(Packet &pkt, uint64_t k_nas_int) {$/;"	f	class:Integrity
+hssdata	/root/NFV_IMS/Kernel/hss.cpp	/^struct hssdata$/;"	s	file:
+id	/root/NFV_IMS/Kernel/hss.cpp	/^	int id;$/;"	m	struct:arg	file:
+id	/root/NFV_IMS/Kernel/icscf.cpp	/^	int id;$/;"	m	struct:arg	file:
+id	/root/NFV_IMS/Kernel/pcscf.cpp	/^	int id;$/;"	m	struct:arg	file:
+id	/root/NFV_IMS/Kernel/scscf.cpp	/^	int id;$/;"	m	struct:arg	file:
+ik	/root/NFV_IMS/Kernel/ran.h	/^	uint64_t ik;	$/;"	m	class:RanContext
+ik	/root/NFV_IMS/Kernel/uecontext.h	/^	uint64_t ik;$/;"	m	class:UEcontext
+imsi	/root/NFV_IMS/Kernel/ran.h	/^	uint64_t imsi; \/* International Mobile Subscriber Identity.  *\/$/;"	m	class:RanContext
+imsi	/root/NFV_IMS/Kernel/uecontext.h	/^	uint64_t imsi; \/* International Mobile Subscriber Identity.  *\/$/;"	m	class:UEcontext
+inMemoryDatabase	/root/NFV_IMS/Kernel/hss.cpp	/^std::map<uint64_t, hssdata> inMemoryDatabase;$/;"	v
+init	/root/NFV_IMS/Kernel/ran.cpp	/^void Ran::init(int arg) {$/;"	f	class:Ran
+init	/root/NFV_IMS/Kernel/ran.cpp	/^void RanContext::init(uint32_t arg) { \/\/ Initialize RAN context$/;"	f	class:RanContext
+init	/root/NFV_IMS/Kernel/ran_simulator.cpp	/^void init(char *argv[]) {$/;"	f
+init	/root/NFV_IMS/Kernel/sctp_client.cpp	/^void SctpClient::init(string arg_server_ip_addr, int arg_server_port) {$/;"	f	class:SctpClient
+init	/root/NFV_IMS/Kernel/sip.cpp	/^void Sip::init(int arg_msg_type) {$/;"	f	class:Sip
+initial_fd	/root/NFV_IMS/Kernel/utils.h	/^	int initial_fd;$/;"	m	struct:mdata
+instanceid	/root/NFV_IMS/Kernel/ran.h	/^	uint64_t instanceid;$/;"	m	class:RanContext
+instanceid	/root/NFV_IMS/Kernel/uecontext.h	/^	uint64_t instanceid;$/;"	m	class:UEcontext
+integrity_protected	/root/NFV_IMS/Kernel/uecontext.h	/^	uint64_t integrity_protected;$/;"	m	class:UEcontext
+ip_addr	/root/NFV_IMS/Kernel/ran.h	/^	string ip_addr; \/\/ Stores IP Address of UE$/;"	m	class:RanContext
+ip_addr	/root/NFV_IMS/Kernel/uecontext.h	/^	std::string ip_addr; \/\/ Stores IP Address of UE$/;"	m	class:UEcontext
+iv	/root/NFV_IMS/Kernel/security.h	/^	uint8_t *iv;$/;"	m	class:Crypt
+k_asme	/root/NFV_IMS/Kernel/ran.h	/^	uint64_t k_asme; \/* Key for Access Security Management Entity *\/$/;"	m	class:RanContext
+k_asme	/root/NFV_IMS/Kernel/uecontext.h	/^	uint64_t k_asme; \/* Key for Access Security Management Entity *\/$/;"	m	class:UEcontext
+k_nas_enc	/root/NFV_IMS/Kernel/ran.h	/^	uint64_t k_nas_enc; \/* Key for NAS Encryption \/ Decryption *\/$/;"	m	class:RanContext
+k_nas_enc	/root/NFV_IMS/Kernel/uecontext.h	/^	uint64_t k_nas_enc; \/* Key for NAS Encryption \/ Decryption *\/$/;"	m	class:UEcontext
+k_nas_int	/root/NFV_IMS/Kernel/ran.h	/^	uint64_t k_nas_int; \/* Key for NAS Integrity check *\/$/;"	m	class:RanContext
+k_nas_int	/root/NFV_IMS/Kernel/uecontext.h	/^	uint64_t k_nas_int; \/* Key for NAS Integrity check *\/$/;"	m	class:UEcontext
+key	/root/NFV_IMS/Kernel/ran.h	/^	uint64_t key; \/* Primary key used in generating secondary keys *\/$/;"	m	class:RanContext
+key	/root/NFV_IMS/Kernel/security.h	/^	uint8_t *key;$/;"	m	class:Crypt
+key	/root/NFV_IMS/Kernel/security.h	/^	uint8_t *key;$/;"	m	class:Integrity
+key	/root/NFV_IMS/Kernel/uecontext.h	/^	uint64_t key; \/* Primary key used in generating secondary keys *\/$/;"	m	class:UEcontext
+key_id	/root/NFV_IMS/Kernel/hss.cpp	/^	int key_id,rand_num; \/\/ rand_num is used for generating authentication challenge$/;"	m	struct:hssdata	file:
+ksi_asme	/root/NFV_IMS/Kernel/ran.h	/^	uint64_t ksi_asme; \/* Key Selection Identifier for Access Security Management Entity *\/$/;"	m	class:RanContext
+ksi_asme	/root/NFV_IMS/Kernel/uecontext.h	/^	uint64_t ksi_asme; \/* Key Selection Identifier for Access Security Management Entity *\/$/;"	m	class:UEcontext
+len	/root/NFV_IMS/Kernel/packet.h	/^	int len;$/;"	m	class:Packet
+listenSocket	/root/NFV_IMS/Kernel/ran_simulator.cpp	/^int listenSocket;$/;"	v
+listen_lock	/root/NFV_IMS/Kernel/hss.cpp	/^mutex listen_lock; \/\/ This lock will serve for locking socket$/;"	v
+listen_lock	/root/NFV_IMS/Kernel/icscf.cpp	/^mutex listen_lock; \/\/ This lock will serve for locking socket$/;"	v
+listen_lock	/root/NFV_IMS/Kernel/pcscf.cpp	/^mutex listen_lock; \/\/ This lock will serve for locking socket$/;"	v
+listen_lock	/root/NFV_IMS/Kernel/scscf.cpp	/^mutex listen_lock; \/\/ This lock will serve for locking socket$/;"	v
+load	/root/NFV_IMS/Kernel/security.cpp	/^void Crypt::load() {	$/;"	f	class:Crypt
+main	/root/NFV_IMS/Kernel/hss.cpp	/^int main()$/;"	f
+main	/root/NFV_IMS/Kernel/icscf.cpp	/^int main()$/;"	f
+main	/root/NFV_IMS/Kernel/pcscf.cpp	/^int main()$/;"	f
+main	/root/NFV_IMS/Kernel/ran_simulator.cpp	/^int main(int argc, char *argv[]) {$/;"	f
+main	/root/NFV_IMS/Kernel/scscf.cpp	/^int main()$/;"	f
+make_socket_non_blocking	/root/NFV_IMS/Kernel/utils.cpp	/^int make_socket_non_blocking(int fd)$/;"	f
+max_ele	/root/NFV_IMS/Kernel/utils.cpp	/^int Utils::max_ele(vector<int> inp) {$/;"	f	class:Utils
+mcc	/root/NFV_IMS/Kernel/ran.h	/^	uint16_t mcc; \/* Mobile Country Code *\/$/;"	m	class:RanContext
+mcc	/root/NFV_IMS/Kernel/uecontext.h	/^	uint16_t mcc; \/* Mobile Country Code *\/$/;"	m	class:UEcontext
+mdata	/root/NFV_IMS/Kernel/utils.h	/^struct mdata{$/;"	s
+mdata_BUF_SIZE	/root/NFV_IMS/Kernel/utils.h	64;"	d
+mlock	/root/NFV_IMS/Kernel/sync.cpp	/^void Sync::mlock(pthread_mutex_t &mux) {$/;"	f	class:Sync
+mnc	/root/NFV_IMS/Kernel/ran.h	/^	uint16_t mnc; \/* Mobile Network Code *\/$/;"	m	class:RanContext
+mnc	/root/NFV_IMS/Kernel/uecontext.h	/^	uint16_t mnc; \/* Mobile Network Code *\/$/;"	m	class:UEcontext
+msg_type	/root/NFV_IMS/Kernel/sip.h	/^	int msg_type; $/;"	m	class:Sip
+msisdn	/root/NFV_IMS/Kernel/ran.h	/^	uint64_t msisdn; \/* Mobile Station International Subscriber Directory Number - Mobile number *\/$/;"	m	class:RanContext
+msisdn	/root/NFV_IMS/Kernel/uecontext.h	/^	uint64_t msisdn; \/* Mobile Station International Subscriber Directory Number - Mobile number *\/$/;"	m	class:UEcontext
+msui	/root/NFV_IMS/Kernel/utils.h	/^	uint32_t msui;$/;"	m	struct:mdata
+munlock	/root/NFV_IMS/Kernel/sync.cpp	/^void Sync::munlock(pthread_mutex_t &mux) {$/;"	f	class:Sync
+mux_init	/root/NFV_IMS/Kernel/sync.cpp	/^void Sync::mux_init(pthread_mutex_t &mux) {$/;"	f	class:Sync
+nas_enc_algo	/root/NFV_IMS/Kernel/ran.h	/^	uint64_t nas_enc_algo; \/* Idenitifier of NAS Encryption \/ Decryption *\/$/;"	m	class:RanContext
+nas_enc_algo	/root/NFV_IMS/Kernel/uecontext.h	/^	uint64_t nas_enc_algo; \/* Idenitifier of NAS Encryption \/ Decryption *\/$/;"	m	class:UEcontext
+nas_int_algo	/root/NFV_IMS/Kernel/ran.h	/^	uint64_t nas_int_algo; \/* Idenitifier of NAS Integrity check *\/$/;"	m	class:RanContext
+nas_int_algo	/root/NFV_IMS/Kernel/uecontext.h	/^	uint64_t nas_int_algo; \/* Idenitifier of NAS Integrity check *\/$/;"	m	class:UEcontext
+operator =	/root/NFV_IMS/Kernel/packet.cpp	/^Packet& Packet::operator=(Packet src_obj) {$/;"	f	class:Packet
+pcscf_client	/root/NFV_IMS/Kernel/ran.h	/^	SctpClient pcscf_client;$/;"	m	class:Ran
+pcscf_client	/root/NFV_IMS/Kernel/ran.h	/^	uint64_t user_server,user_client, pcscf_server,pcscf_client; \/\/ Ports in iPSec security Association$/;"	m	class:RanContext
+pcscf_server	/root/NFV_IMS/Kernel/ran.h	/^	uint64_t user_server,user_client, pcscf_server,pcscf_client; \/\/ Ports in iPSec security Association$/;"	m	class:RanContext
+pcscf_socket	/root/NFV_IMS/Kernel/ran.h	/^	uint64_t pcscf_socket;$/;"	m	class:RanContext
+pkt	/root/NFV_IMS/Kernel/ran.h	/^	Packet pkt;$/;"	m	class:Ran
+plmn_id	/root/NFV_IMS/Kernel/ran.h	/^	uint16_t plmn_id; \/* Public Land Mobile Network ID *\/	$/;"	m	class:RanContext
+plmn_id	/root/NFV_IMS/Kernel/uecontext.h	/^	uint16_t plmn_id; \/* Public Land Mobile Network ID *\/	$/;"	m	class:UEcontext
+prepend_item	/root/NFV_IMS/Kernel/packet.cpp	/^void Packet::prepend_item(uint8_t *item, int item_len) {$/;"	f	class:Packet
+prepend_len	/root/NFV_IMS/Kernel/packet.cpp	/^void Packet::prepend_len() {$/;"	f	class:Packet
+prepend_sip_hdr	/root/NFV_IMS/Kernel/packet.cpp	/^void Packet::prepend_sip_hdr(int msg_type) {$/;"	f	class:Packet
+print_hmac	/root/NFV_IMS/Kernel/security.cpp	/^void Integrity::print_hmac(uint8_t *hmac) {$/;"	f	class:Integrity
+print_results	/root/NFV_IMS/Kernel/ran_simulator.cpp	/^void print_results() {$/;"	f
+privateidentity	/root/NFV_IMS/Kernel/ran.h	/^	int privateidentity; $/;"	m	class:RanContext
+privateidentity	/root/NFV_IMS/Kernel/uecontext.h	/^	int privateidentity; $/;"	m	class:UEcontext
+privateidentity	/root/NFV_IMS/Kernel/utils.h	/^	int privateidentity;$/;"	m	struct:mdata
+ran_ctx	/root/NFV_IMS/Kernel/ran.h	/^	RanContext ran_ctx;$/;"	m	class:Ran
+ran_listen_fd	/root/NFV_IMS/Kernel/hss.cpp	/^int ran_listen_fd; 	\/\/ This fd will be initial listen id$/;"	v
+ran_listen_fd	/root/NFV_IMS/Kernel/icscf.cpp	/^int ran_listen_fd; 	\/\/ This fd will be initial listen id$/;"	v
+ran_listen_fd	/root/NFV_IMS/Kernel/pcscf.cpp	/^int ran_listen_fd; 	\/\/ This fd will be initial listen id$/;"	v
+ran_listen_fd	/root/NFV_IMS/Kernel/scscf.cpp	/^int ran_listen_fd; 	$/;"	v
+rand_num	/root/NFV_IMS/Kernel/hss.cpp	/^	int key_id,rand_num; \/\/ rand_num is used for generating authentication challenge$/;"	m	struct:hssdata	file:
+rand_num	/root/NFV_IMS/Kernel/ran.h	/^	uint64_t rand_num;$/;"	m	class:RanContext
+rand_num	/root/NFV_IMS/Kernel/uecontext.h	/^	uint64_t rand_num;$/;"	m	class:UEcontext
+rcv	/root/NFV_IMS/Kernel/sctp_client.cpp	/^void SctpClient::rcv(Packet &pkt) {$/;"	f	class:SctpClient
+read_sctp_pkt	/root/NFV_IMS/Kernel/network.cpp	/^int Network::read_sctp_pkt(int conn_fd, Packet &pkt) {$/;"	f	class:Network
+read_stream	/root/NFV_IMS/Kernel/network.cpp	/^int Network::read_stream(int conn_fd, uint8_t *buf, int len) {$/;"	f	class:Network
+read_stream	/root/NFV_IMS/Kernel/utils.cpp	/^int read_stream(int conn_fd, uint8_t *buf, int len) $/;"	f
+register1	/root/NFV_IMS/Kernel/ran.cpp	/^void Ran::register1() { $/;"	f	class:Ran
+register1	/root/NFV_IMS/Kernel/ran_simulator.cpp	/^void register1(int ran_num)$/;"	f
+registered	/root/NFV_IMS/Kernel/uecontext.h	/^	uint64_t registered;$/;"	m	class:UEcontext
+rem_hmac	/root/NFV_IMS/Kernel/security.cpp	/^void Integrity::rem_hmac(Packet &pkt, uint8_t *hmac) {$/;"	f	class:Integrity
+rem_itf	/root/NFV_IMS/Kernel/network.cpp	/^void Network::rem_itf(int itf_no) {$/;"	f	class:Network
+res	/root/NFV_IMS/Kernel/ran.h	/^	uint64_t res;	$/;"	m	class:RanContext
+res	/root/NFV_IMS/Kernel/uecontext.h	/^	uint64_t res;$/;"	m	class:UEcontext
+run	/root/NFV_IMS/Kernel/hss.cpp	/^void * run(void* arg1)$/;"	f
+run	/root/NFV_IMS/Kernel/icscf.cpp	/^void * run(void* arg1)$/;"	f
+run	/root/NFV_IMS/Kernel/pcscf.cpp	/^void * run(void* arg1)$/;"	f
+run	/root/NFV_IMS/Kernel/ran_simulator.cpp	/^void run() {$/;"	f
+run	/root/NFV_IMS/Kernel/scscf.cpp	/^void * run(void* arg1)$/;"	f
+scscf_addr	/root/NFV_IMS/Kernel/uecontext.h	/^	std::string scscf_addr; \/\/ Stores IP Address of SCSCF$/;"	m	class:UEcontext
+scscf_port	/root/NFV_IMS/Kernel/uecontext.h	/^	uint64_t scscf_port; \/\/ SCSCF Port$/;"	m	class:UEcontext
+scscfaddress	/root/NFV_IMS/Kernel/hss.cpp	/^	string scscfaddress; \/\/ Scscf IP address$/;"	m	struct:hssdata	file:
+scscfport	/root/NFV_IMS/Kernel/hss.cpp	/^	uint64_t scscfport;  \/\/ Scscf port number$/;"	m	struct:hssdata	file:
+second_fd	/root/NFV_IMS/Kernel/utils.h	/^	int second_fd;$/;"	m	struct:mdata
+server_ip_addr	/root/NFV_IMS/Kernel/sctp_client.h	/^	string server_ip_addr;$/;"	m	class:SctpClient
+server_port	/root/NFV_IMS/Kernel/sctp_client.h	/^	int server_port;$/;"	m	class:SctpClient
+server_sock_addr	/root/NFV_IMS/Kernel/sctp_client.h	/^	struct sockaddr_in server_sock_addr;$/;"	m	class:SctpClient	typeref:struct:SctpClient::sockaddr_in
+servers	/root/NFV_IMS/Kernel/hss.cpp	/^pthread_t servers[MAX_THREADS]; \/\/ Threads $/;"	v
+servers	/root/NFV_IMS/Kernel/icscf.cpp	/^pthread_t servers[MAX_THREADS]; \/\/ Threads $/;"	v
+servers	/root/NFV_IMS/Kernel/pcscf.cpp	/^pthread_t servers[MAX_THREADS]; \/\/ Threads $/;"	v
+servers	/root/NFV_IMS/Kernel/scscf.cpp	/^pthread_t servers[MAX_THREADS]; \/\/ Threads $/;"	v
+set_inet_sock_addr	/root/NFV_IMS/Kernel/network.cpp	/^void Network::set_inet_sock_addr(string ip_addr, int port, struct sockaddr_in &sock_addr) {$/;"	f	class:Network
+set_rcv_timeout	/root/NFV_IMS/Kernel/network.cpp	/^void Network::set_rcv_timeout(int sock_fd, int level) {$/;"	f	class:Network
+set_sock_reuse	/root/NFV_IMS/Kernel/network.cpp	/^void Network::set_sock_reuse(int sock_fd) {$/;"	f	class:Network
+setupkv	/root/NFV_IMS/Kernel/hss.cpp	/^void setupkv()$/;"	f
+simulate	/root/NFV_IMS/Kernel/ran_simulator.cpp	/^void simulate(int arg) {$/;"	f
+sip_hdr	/root/NFV_IMS/Kernel/packet.h	/^	Sip sip_hdr;$/;"	m	class:Packet
+sipheader	/root/NFV_IMS/Kernel/uecontext.h	/^	int sipheader;$/;"	m	class:UEcontext
+sipheader	/root/NFV_IMS/Kernel/utils.h	/^	int sipheader;$/;"	m	struct:mdata
+snd	/root/NFV_IMS/Kernel/sctp_client.cpp	/^void SctpClient::snd(Packet pkt) {$/;"	f	class:SctpClient
+spipcusah	/root/NFV_IMS/Kernel/ran.h	/^	uint64_t spiuspcesp, spiuspcah,spipcusesp, spipcusah; \/\/ Security parameter index from User clienet - PCSCF Server$/;"	m	class:RanContext
+spipcusesp	/root/NFV_IMS/Kernel/ran.h	/^	uint64_t spiuspcesp, spiuspcah,spipcusesp, spipcusah; \/\/ Security parameter index from User clienet - PCSCF Server$/;"	m	class:RanContext
+spipsucah	/root/NFV_IMS/Kernel/ran.h	/^	uint64_t spiucpsesp, spiucpsah,spipsucesp, spipsucah; \/\/ Security parameter index from PCSCF server- User client$/;"	m	class:RanContext
+spipsucesp	/root/NFV_IMS/Kernel/ran.h	/^	uint64_t spiucpsesp, spiucpsah,spipsucesp, spipsucah; \/\/ Security parameter index from PCSCF server- User client$/;"	m	class:RanContext
+spiucpsah	/root/NFV_IMS/Kernel/ran.h	/^	uint64_t spiucpsesp, spiucpsah,spipsucesp, spipsucah; \/\/ Security parameter index from PCSCF server- User client$/;"	m	class:RanContext
+spiucpsesp	/root/NFV_IMS/Kernel/ran.h	/^	uint64_t spiucpsesp, spiucpsah,spipsucesp, spipsucah; \/\/ Security parameter index from PCSCF server- User client$/;"	m	class:RanContext
+spiuspcah	/root/NFV_IMS/Kernel/ran.h	/^	uint64_t spiuspcesp, spiuspcah,spipcusesp, spipcusah; \/\/ Security parameter index from User clienet - PCSCF Server$/;"	m	class:RanContext
+spiuspcesp	/root/NFV_IMS/Kernel/ran.h	/^	uint64_t spiuspcesp, spiuspcah,spipcusesp, spipcusah; \/\/ Security parameter index from User clienet - PCSCF Server$/;"	m	class:RanContext
+sqn	/root/NFV_IMS/Kernel/ran.h	/^	uint64_t sqn;$/;"	m	class:RanContext
+swap	/root/NFV_IMS/Kernel/packet.cpp	/^void swap(Packet &src_obj, Packet &dst_obj) {$/;"	f
+time_check	/root/NFV_IMS/Kernel/utils.cpp	/^void Utils::time_check(time_t start_time, double dur_time, bool &time_exceeded) {$/;"	f	class:Utils
+truncate	/root/NFV_IMS/Kernel/packet.cpp	/^void Packet::truncate() {$/;"	f	class:Packet
+ueClientPort	/root/NFV_IMS/Kernel/ran_simulator.cpp	/^uint32_t ueClientPort;	$/;"	v
+ueServerSocket	/root/NFV_IMS/Kernel/ran_simulator.cpp	/^uint32_t ueServerSocket;$/;"	v
+uecontextmap	/root/NFV_IMS/Kernel/hss.cpp	/^map<uint64_t,UEcontext> uecontextmap; \/\/ For storing UE context$/;"	v
+uecontextmap	/root/NFV_IMS/Kernel/icscf.cpp	/^map<uint64_t,UEcontext> uecontextmap; \/\/ For storing UE context$/;"	v
+uecontextmap	/root/NFV_IMS/Kernel/pcscf.cpp	/^map<uint64_t,UEcontext> uecontextmap; \/\/ For storing UE context$/;"	v
+uecontextmap	/root/NFV_IMS/Kernel/scscf.cpp	/^map<uint64_t,UEcontext> uecontextmap; \/\/ For storing UE context$/;"	v
+uecontextmap_lock	/root/NFV_IMS/Kernel/hss.cpp	/^mutex uecontextmap_lock; \/\/ This lock will serve for locking uecontextmap$/;"	v
+uecontextmap_lock	/root/NFV_IMS/Kernel/icscf.cpp	/^mutex uecontextmap_lock; \/\/ This lock will serve for locking uecontextmap$/;"	v
+uecontextmap_lock	/root/NFV_IMS/Kernel/pcscf.cpp	/^mutex uecontextmap_lock; \/\/ This lock will serve for locking uecontextmap$/;"	v
+uecontextmap_lock	/root/NFV_IMS/Kernel/scscf.cpp	/^mutex uecontextmap_lock; \/\/ This lock will serve for locking uecontextmap$/;"	v
+user_client	/root/NFV_IMS/Kernel/ran.h	/^	uint64_t user_server,user_client, pcscf_server,pcscf_client; \/\/ Ports in iPSec security Association$/;"	m	class:RanContext
+user_server	/root/NFV_IMS/Kernel/ran.h	/^	uint64_t user_server,user_client, pcscf_server,pcscf_client; \/\/ Ports in iPSec security Association$/;"	m	class:RanContext
+write_sctp_pkt	/root/NFV_IMS/Kernel/network.cpp	/^int Network::write_sctp_pkt(int conn_fd, Packet pkt) {$/;"	f	class:Network
+write_stream	/root/NFV_IMS/Kernel/network.cpp	/^int Network::write_stream(int conn_fd, uint8_t *buf, int len) {$/;"	f	class:Network
+write_stream	/root/NFV_IMS/Kernel/utils.cpp	/^int write_stream(int conn_fd, uint8_t *buf, int len) $/;"	f
+xautn_num	/root/NFV_IMS/Kernel/ran.h	/^	uint64_t xautn_num;$/;"	m	class:RanContext
+xres	/root/NFV_IMS/Kernel/uecontext.h	/^	uint64_t xres;$/;"	m	class:UEcontext
+~Crypt	/root/NFV_IMS/Kernel/security.cpp	/^Crypt::~Crypt() {$/;"	f	class:Crypt
+~Integrity	/root/NFV_IMS/Kernel/security.cpp	/^Integrity::~Integrity() {$/;"	f	class:Integrity
+~Packet	/root/NFV_IMS/Kernel/packet.cpp	/^Packet::~Packet() {	$/;"	f	class:Packet
+~RanContext	/root/NFV_IMS/Kernel/ran.cpp	/^RanContext::~RanContext() {$/;"	f	class:RanContext
+~SctpClient	/root/NFV_IMS/Kernel/sctp_client.cpp	/^SctpClient::~SctpClient() {$/;"	f	class:SctpClient
+~Sip	/root/NFV_IMS/Kernel/sip.cpp	/^Sip::~Sip() {$/;"	f	class:Sip
